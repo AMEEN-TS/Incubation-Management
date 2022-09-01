@@ -1,0 +1,35 @@
+.flextry {
+  display: flex;
+  align-items: center;
+ 
+  /* height: 100vh;
+  width: 100vw; */
+  /* background: #232526; 
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); 
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  );  */
+  background-color:#fff;
+  padding-left: 250px;
+  width: 200%
+}
+.adminnav{
+  height: 100px;
+  background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 250px;
+}
+.view{
+  cursor: pointer;
+}
